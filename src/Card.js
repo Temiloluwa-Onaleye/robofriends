@@ -11,7 +11,7 @@ class Card extends Component {
   }
   render() {
     return (
-      <div className="bg-light-green dib br3 pa3 ma2 grow bw2 shadow5">
+      <div className="bg-light-green tc dib br3 pa3 ma2 grow bw2 shadow5">
         <img
           src={`https://robohash.org/${this.props.image}?200x200`}
           alt="robots"
