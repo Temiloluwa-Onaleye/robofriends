@@ -10,7 +10,6 @@ const SearchBox = ({ searchField, searchChange }) => {
         className="pa3 ba b--green bg-lightest-blue"
         onChange={searchChange}
       />
-      <button className="pa3 ba  bg-lightest-grey">Search</button>
     </div>
   );
 };
